@@ -7,8 +7,9 @@ body {
 }
 
 .container {
-    background-color: rgba(245, 245, 220, 0.8);
+    background-color: rgba(255, 255, 255, 0.836);
     margin-top: 8%;
+    margin-bottom: 8%;
     display: inline-block;
     min-height: 50vh;
 }
@@ -18,10 +19,8 @@ h1 {
     padding-bottom: 2%;
     padding-top: 2%;
 }
-h3 {
-    width: 
-}
-#displayPassword {
+
+.passwordStyle {
     line-height: 50px;
     width: 100%;
     border: dashed 2px grey;
@@ -46,7 +45,18 @@ h3 {
 }
 
 #length{
-    display: inline-block;
-    width: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
 }
 

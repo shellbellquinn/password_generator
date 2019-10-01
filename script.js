@@ -20,8 +20,9 @@ function generate() {
     //add password to textbox/display area
     document.getElementById("displayPassword").value = password;
 
-}
+    console.log(password);
 
+}
 
 
 //function to copy password to clipboard

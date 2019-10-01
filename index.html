@@ -18,31 +18,25 @@
 
     <section class="container">
 
-
-
         <h1>Random Password Generator</h1>
-
-
-
-
 
         <div class="content">
             <h3>Generate a Password</h3>
             <br />
-            <input type="text" id="displayPassword">
+            <input type="text" id="displayPassword" class="passwordStyle">
             <br />
             <input type="range" min="8" max="128" name="slider" id="slider">
             <br />
-            <div id="length"></div>
-    
-        <div class="buttons">
+            <p id="length">Length</p>
+
+
+            <div class="buttons">
                 <button onclick="generate()">Generate</button>
                 <button onclick="copyPassword()">Copy to Clipboard</button>
-        </div>
+            </div>
         </div>
 
 
-        </div>
 
 
     </section>
