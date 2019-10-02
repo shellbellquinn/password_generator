@@ -10,3 +10,5 @@ The application will validate user input and ensure that at least one character 
 The user will also have the option to click a button to copy the password to their clipboard.  
 
 The application is also responsive, ensuring that it adapts to multiple screen sizes.
+https://shellbellquinn.github.io/password_generator/
+
