@@ -60,3 +60,19 @@ h1 {
     width: 100%;
 }
 
+#generateButton {
+    background-color: red;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  #copyButton{
+  background-color: white;
+  border: 2px solid red;
+  color: red;
+  text-align: center;
+  font-size: 16px;
+}

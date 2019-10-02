@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -25,14 +25,16 @@
             <br />
             <input type="text" id="displayPassword" class="passwordStyle">
             <br />
-            <input type="range" min="8" max="128" name="slider" id="slider">
+            <input type="range" min="8" max="128" value="10" name="slider" id="slider">
             <br />
             <p id="length">Length</p>
 
 
+
+
             <div class="buttons">
-                <button onclick="generate()">Generate</button>
-                <button onclick="copyPassword()">Copy to Clipboard</button>
+                <button id=generateButton onclick="generate()">Generate</button>
+                <button id=copyButton onclick="copyPassword()">Copy to Clipboard</button>
             </div>
         </div>
 
