@@ -25,9 +25,10 @@ function generate() {
 
 
 
-//function to copy password to clipboard
+
 function copyPassword() {
-    document.getElementById("displayPassword").select();
-    document.execCommand("Copy to clipboard");
-    alert("Password copied to clipboard!");
-}
+    var copyText = document.getElementById("displayPassword");
+    copyText.select();
+    document.execCommand("copy");
+    alert("Copied to Clipboard");
+  }
