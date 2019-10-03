@@ -2,18 +2,15 @@
 var values = "ABCDEFGHIJKLMNOPQRSTUVWZYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_+";
 var password = "";
 
-//show slider value
-
-
-document.getElementById("length").innerHTML = "Password Length: " + "" + slider.value;
-
+//set slider value
 document.getElementById("slider").oninput = function () {
-    document.getElementById("length").innerHTML = "Password Length: " + slider.value;
+    document.getElementById("length").textContent = "Password Length: " + slider.value;
 }
 
 
 //generate random password
 function generate() {
+    password = "";
     var passLength = (document.getElementById("slider").value);
     for (var i = 0; i < passLength; i++) {
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length)));
@@ -21,9 +18,8 @@ function generate() {
     //add password to textbox/display area
     document.getElementById("displayPassword").value = password;
     console.log(password);
+    console.log(slider.value);
 }
-
-
 
 
 function copyPassword() {
@@ -31,4 +27,4 @@ function copyPassword() {
     copyText.select();
     document.execCommand("copy");
     alert("Copied to Clipboard");
-  }
+}

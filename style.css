@@ -32,7 +32,7 @@ h1 {
     text-align: center;
 }
 
-.content{
+.content {
     padding: 20px;
     width: 80%;
     background-color: white;
@@ -44,11 +44,11 @@ h1 {
     margin-bottom: 8%;
 }
 
-#slider{
+#slider {
     width: 100%;
 }
 
-#length{
+#length {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -56,7 +56,7 @@ h1 {
     width: 100%;
 }
 
-.buttons{
+.buttons {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -71,16 +71,13 @@ h1 {
     padding: 15px 50px;
     text-align: center;
     font-size: 16px;
-  }
-
-#copyButton{
-  background-color: white;
-  border: 2px solid red;
-  color: red;
-  text-align: center;
-  padding: 15px;
-  font-size: 16px;
 }
 
-
-  
+#copyButton {
+    background-color: white;
+    border: 2px solid red;
+    color: red;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
