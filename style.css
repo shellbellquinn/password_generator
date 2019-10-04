@@ -84,14 +84,12 @@ h1 {
     font-size: 16px;
 }
 
-
-
 @media only screen and (max-width: 600px) {
     .buttons {
         display: inline-block;
         margin: 10px;
     }
-    
+
     #generateButton {
         background-color: red;
         border: 2px solid red;
@@ -101,7 +99,7 @@ h1 {
         font-size: 16px;
         margin-bottom: 10px;
     }
-    
+
     #copyButton {
         background-color: white;
         border: 2px solid red;
@@ -113,7 +111,7 @@ h1 {
 
     #specialChar {
         display: flex;
-        width: 100%;;
+        width: 100%;
     }
 
     #length {

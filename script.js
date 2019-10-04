@@ -22,7 +22,6 @@ checkbox.addEventListener("click", function () {
     console.log(mode)
 });
 
-
 //generate random password
 function generate() {
     if (mode === "true") {
@@ -49,7 +48,7 @@ function generate() {
     console.log(mode);
 }
 
-
+//copy password
 function copyPassword() {
     var copyText = document.getElementById("displayPassword");
     copyText.select();
