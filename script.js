@@ -29,7 +29,7 @@ function generate() {
         password = "";
         var passLength = (document.getElementById("slider").value);
         for (var i = 0; i < passLength; i++) {
-            password = password + special.charAt(Math.floor(Math.random() * Math.floor(special.length)));
+            password = password + special.charAt(Math.floor(Math.random() * (special.length)));
         }
         //add password to textbox/display area
         document.getElementById("displayPassword").value = password;
@@ -38,7 +38,7 @@ function generate() {
         password = "";
         var passLength = (document.getElementById("slider").value);
         for (var i = 0; i < passLength; i++) {
-            password = password + noSpecial.charAt(Math.floor(Math.random() * Math.floor(noSpecial.length)));
+            password = password + noSpecial.charAt(Math.floor(Math.random() * (noSpecial.length)));
         }
 
     }

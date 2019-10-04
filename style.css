@@ -65,6 +65,7 @@ h1 {
 }
 
 #generateButton {
+    border-radius: 15px 15px 15px 15px;
     background-color: red;
     border: 2px solid red;
     color: white;
@@ -74,6 +75,7 @@ h1 {
 }
 
 #copyButton {
+    border-radius: 15px 15px 15px 15px;
     background-color: white;
     border: 2px solid red;
     color: red;
